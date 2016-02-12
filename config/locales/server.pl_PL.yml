@@ -1,0 +1,8 @@
+pl_PL:
+  site_settings:
+    allow_expired_on_all_topics: "Pozwól oznaczać użytkownikom wszystkie tematy jako rozwiązane (domyślnie tylko dla wybranych kategorii w ich ustawieniach)"
+  reports:
+    expired_topic:
+      title: "Zaakceptowane rozwiązania"
+      xaxis: "Dzień"
+      yaxis: "Wszystkie"

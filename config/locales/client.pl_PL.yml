@@ -1,0 +1,10 @@
+pl_PL:
+  js:
+    expired:
+      allow_expired_topics: "Pozwól użytkownikom na akceptowanie rozwiązań"
+      expire_answer: "Akceptuj rozwiązanie"
+      has_expired_topic: "Ten temat ma zaakceptowane rozwiązanie"
+      unexpire_answer: "Niezaakceptowana odpowiedź"
+      expired_topic: "Zaakceptowana odpowiedź"
+      expired_html: "<i class='fa-check-square fa expired'></i> Rozwiązane przez <a href data-user-card='{{username_lower}}'>{{username}}</a> w <a href='{{post_path}}'>poście #{{post_number}}</a>"
+      expired_notification: "<i title='expired' class='fa fa-check-square'></i><p><span>{{username}}</span> {{description}}</p>"

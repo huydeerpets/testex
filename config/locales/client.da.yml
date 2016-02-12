@@ -1,0 +1,11 @@
+da:
+  js:
+    expired:
+      allow_expired_topics: "Tillad ejer af emne og stab at markere svar som en løsning"
+      expire_answer: "Dette svar løser problemr"
+      has_expired_topic: "Dette svar har en løsning"
+      unexpire_answer: "Dette svar løser ikke længere problemet"
+      expired_topic: "Løsning"
+      solution: "Løsning"
+      expired_html: "<i class='fa-check-square fa expired'></i> Løst <span class='by'>af <a href data-user-card='{{username_lower}}'>{{username}}</a></span> i <a href='{{post_path}}'>indlæg #{{post_number}}</a>"
+      expired_notification: "<i title='expired' class='fa fa-check-square'></i><p><span>{{username}}</span> {{description}}</p>"

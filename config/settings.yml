@@ -1,0 +1,4 @@
+plugins:
+  allow_expired_on_all_topics:
+    default: false
+    client: true

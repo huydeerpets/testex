@@ -1,0 +1,10 @@
+he:
+  js:
+    expired:
+      allow_expired_topics: "אפשר למשתמשים לאשר תשובות"
+      expire_answer: "קבל תשובה"
+      has_expired_topic: "נושא זה נפתר"
+      unexpire_answer: "בטל קבלת תשובה"
+      expired_topic: "קבל תשובה"
+      expired_html: "<i class='fa-check-square fa expired'></i> נפתר על ידי <a href data-user-card='{{username_lower}}'>{{username}}</a><a href='{{post_path}}'>בתגובה  #{{post_number}}</a>"
+      expired_notification: "<i title='expired' class='fa fa-check-square'></i><p><span>{{username}}</span> {{description}}</p>"

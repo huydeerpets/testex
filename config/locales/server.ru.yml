@@ -1,0 +1,8 @@
+ru:
+  site_settings:
+    allow_expired_on_all_topics: "Разрешить пользователям отмечать ответы в темах (управляется в свойствах раздела)"
+  reports:
+    expired_topic:
+      title: "Отмеченные"
+      xaxis: "День"
+      yaxis: "Всего"

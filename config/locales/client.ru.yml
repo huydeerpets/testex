@@ -1,0 +1,11 @@
+ru:
+  js:
+    expired:
+      allow_expired_topics: "Разрешить ответы"
+      expire_answer: "Пометить как ответ"
+      has_expired_topic: "В этой теме есть ответ"
+      unexpire_answer: "Убрать ответ"
+      expired_topic: "Подтвержденный ответ"
+      solution: "Ответ"
+      expired_html: "<i class='fa-check-square fa expired'></i><a href data-user-card='{{username_lower}}'>{{username}}</a> ответил в <a href='{{post_path}}'>посте #{{post_number}}</a>"
+      expired_notification: "<i title='expired' class='fa fa-check-square'></i><p><span>{{username}}</span> {{description}}</p>"

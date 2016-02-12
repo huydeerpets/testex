@@ -1,0 +1,11 @@
+pt_BR:
+  js:
+    expired:
+      allow_expired_topics: "Permitir que o criador do tópico e a equipe marquem uma resposta como a solução"
+      expire_answer: "Esta resposta resolve o problema"
+      has_expired_topic: "Este tópico tem uma solução"
+      unexpire_answer: "Esta resposta não resolve mais o problema"
+      expired_topic: "Solução"
+      solution: "Solução"
+      expired_html: "<i class='fa-check-square fa expired'></i> Resolvido <span class='by'>por <a href data-user-card='{{username_lower}}'>{{username}}</a></span> na <a href='{{post_path}}'>mensagem #{{post_number}}</a>"
+      expired_notification: "<i title='expired' class='fa fa-check-square'></i><p><span>{{username}}</span> {{description}}</p>"

@@ -1,0 +1,53 @@
+.fa-check-square-o{
+background: red none repeat scroll 0 0;
+    color: white;
+    content: "Expired";
+    padding: 3px;
+}
+.fa-expired::before {
+    background: red none repeat scroll 0 0;
+    color: white;
+    content: "Expired";
+    padding: 3px;
+}
+
+.expired-panel, .post-controls .expired, .fa.expired, .expired-text {
+  color: red;
+}
+
+.post-controls .expired-text {
+  display: inline-block;
+  font-size: inherit;
+  vertical-align: middle;
+  line-height: 35px;
+  margin-right: -5px;
+  z-index: 999;
+}
+
+// you can style expired topic however your want
+.topic-post.expired-answer .topic-body {
+//  background-color: #E9FFE0;
+}
+
+.mobile-view .post-controls .expired-text {
+  float: left;
+}
+
+.mobile-view .expired-panel {
+  margin-bottom: 15px;
+}
+
+.expired-panel {
+
+  .by {
+    display: none;
+  }
+
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 13px;
+  // margin-bottom: 0px;
+  // padding: 4px 0px;
+  //border-top: 1px solid #ddd;
+  //background-color: #E9FFE0;
+}

@@ -1,0 +1,11 @@
+fa:
+  js:
+    expired:
+      allow_expired_topics: "به صاحب عنوان و مدیران اجازه انتخاب یک پاسخ را به عنوان راه حل بده."
+      expire_answer: "این پاسخ راه حل مشکل است."
+      has_expired_topic: "این عنوان راه حلی دارد"
+      unexpire_answer: "این پاسخ دیگر راه حل این عنوان نیست."
+      expired_topic: "راه حل مورد قبول"
+      solution: "راه حل"
+      expired_html: "<i class='fa-check-square fa expired'></i> حل شده <span class='by'>توسط <a href data-user-card='{{username_lower}}'>{{username}}</a></span> در <a href='{{post_path}}'>پاسخ #{{post_number}}</a>"
+      expired_notification: "<i title='expired' class='fa fa-check-square'></i><p><span>{{username}}</span> {{description}}</p>"
