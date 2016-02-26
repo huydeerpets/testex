@@ -1,21 +1,8 @@
-.fa-check-square-o{
-background: red none repeat scroll 0 0;
-    color: white;
-    content: "Expired";
-    padding: 3px;
-}
-.fa-expired::before {
-    background: red none repeat scroll 0 0;
-    color: white;
-    content: "Expired";
-    padding: 3px;
+.expired-panel, .post-controls .accepted, .fa.accepted, .accepted-text {
+  color: green;
 }
 
-.expired-panel, .post-controls .expired, .fa.expired, .expired-text {
-  color: red;
-}
-
-.post-controls .expired-text {
+.post-controls .accepted-text {
   display: inline-block;
   font-size: inherit;
   vertical-align: middle;
@@ -24,12 +11,12 @@ background: red none repeat scroll 0 0;
   z-index: 999;
 }
 
-// you can style expired topic however your want
-.topic-post.expired-answer .topic-body {
+// you can style accepted answers however your want
+.topic-post.accepted-answer .topic-body {
 //  background-color: #E9FFE0;
 }
 
-.mobile-view .post-controls .expired-text {
+.mobile-view .post-controls .accepted-text {
   float: left;
 }
 

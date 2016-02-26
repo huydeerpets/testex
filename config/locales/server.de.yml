@@ -2,7 +2,7 @@ de:
   site_settings:
     allow_expired_on_all_topics: "Erlaube Nutzern für Themen in allen Kategorien Lösungen als Antworten zu markieren (normalerweise wird dies für jede Kategorie individuell eingestellt)"
   reports:
-    expired_topic:
+    accepted_solutions:
       title: "Akzeptierte Lösungen"
       xaxis: "Tag"
       yaxis: "Gesamt"

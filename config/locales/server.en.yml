@@ -2,7 +2,7 @@ en:
   site_settings:
     allow_expired_on_all_topics: "Allow users to select solutions on all topics (by default you control this by editing categories)"
   reports:
-    expired_topic:
-      title: "Expired solutions"
+    accepted_solutions:
+      title: "Accepted solutions"
       xaxis: "Day"
       yaxis: "Total"
