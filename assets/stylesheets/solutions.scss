@@ -1,6 +1,20 @@
-.expired-panel, .post-controls .accepted, .fa.accepted, .accepted-text {
-  color: green;
+.fa-check-square-o{
+background: red none repeat scroll 0 0;
+    color: white;
+    content: "Expired";
+    padding: 3px;
 }
+.fa-expired::before {
+    background: red none repeat scroll 0 0;
+    color: white;
+    content: "Expired";
+    padding: 3px;
+}
+
+.expired-panel, .post-controls .expired, .fa.expired, .expired-text {
+  color: red;
+}
+
 
 .post-controls .accepted-text {
   display: inline-block;
